@@ -1,0 +1,52 @@
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\PhantomXiters.exe.config
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\PhantomXiters.exe
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\PhantomXiters.pdb
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\RestSharp.xml
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\System.Buffers.xml
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\System.Memory.xml
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\System.Text.Json.xml
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\obj\Debug\PhantomXiters.csproj.AssemblyReference.cache
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\obj\Debug\PhantomXiters.Form1.resources
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\obj\Debug\PhantomXiters.Properties.Resources.resources
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\obj\Debug\PhantomXiters.csproj.GenerateResource.cache
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\obj\Debug\PhantomXiters.csproj.CoreCompileInputs.cache
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\obj\Debug\PhantomX.230FEDCA.Up2Date
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\obj\Debug\PhantomXiters.exe
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\obj\Debug\PhantomXiters.pdb
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\obj\Debug\PhantomXiters.exe.config
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\obj\Debug\PhantomXiters.csproj.Fody.CopyLocal.cache
+C:\Users\Vishnuuu\Downloads\Phantom Xiters UI\x\obj\Debug\PhantomXiters.csproj.Fody.RuntimeCopyLocal.cache
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\Newtonsoft.Json.xml
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\RestSharp.xml
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\System.Buffers.xml
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\System.IO.Pipelines.xml
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\System.Memory.xml
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\System.Numerics.Vectors.xml
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\System.Text.Encodings.Web.xml
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\System.Text.Json.xml
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\obj\Debug\PhantomXiters.csproj.AssemblyReference.cache
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\obj\Debug\PhantomXiters.Form1.resources
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\obj\Debug\PhantomXiters.Properties.Resources.resources
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\obj\Debug\PhantomXiters.csproj.GenerateResource.cache
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\obj\Debug\PhantomXiters.csproj.CoreCompileInputs.cache
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\obj\Debug\PhantomX.230FEDCA.Up2Date
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\VXCorporation.exe.config
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\VXCorporation.exe
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\VXCorporation.pdb
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\obj\Debug\VXCorporation.exe
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\obj\Debug\VXCorporation.pdb
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\obj\Debug\VXCorporation.exe.config
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\Startup.wav
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\bin\Debug\RegisterSuccess.wav
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\obj\Debug\PhantomXiters.csproj.Fody.CopyLocal.cache
+E:\DOWNLOADS C DRIVE !!\PANEL PROJECTS\Phantom Xiters UI\Phantom Xiters UI\x\obj\Debug\PhantomXiters.csproj.Fody.RuntimeCopyLocal.cache
