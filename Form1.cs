@@ -1,4 +1,4 @@
-﻿using Enzo;
+using Enzo;
 using FAST_MEMORY;
 using Gma.System.MouseKeyHook;
 using Guna.UI2.WinForms;
@@ -76,6 +76,11 @@ namespace PhantomXiters
         private List<long> visionAddresses = new List<long>();
         private string visionSearch = "B4 43 DB 0F 49 40 10 2A 00 EE 00 10 80 E5 10 3A 01 EE 14 10 80 E5 00 2A 30 EE 00 10 00 E3 41 3A 30 EE";
         private string visionReplace = "B4 43 DB 0F 78 40 10 2A 00 EE 00 10 80 E5 10 3A 01 EE 14 10 80 E5 00 2A 30 EE 00 10 00 E3 41 3A 30 EE";
+
+        // ==================== NO RECOIL ====================
+        private List<long> recoilAddresses = new List<long>();
+        private string recoilSearch = "00 00 7A 44 00 00 80 7F 10 40 2D E9 00 10 A0 E3";
+        private string recoilReplace = "00 00 40 41 00 00 80 7F 10 40 2D E9 00 10 A0 E3";
 
         // ==================== CHAMS DLL INJECTION ====================
         [DllImport("kernel32.dll", SetLastError = true)]
@@ -562,6 +567,50 @@ namespace PhantomXiters
             }
         }
 
+        // ==================== NO RECOIL CHECKBOX ====================
+        private async void guna2CustomCheckBox10_Click(object sender, EventArgs e)
+        {
+            if (((Guna.UI2.WinForms.Guna2CustomCheckBox)sender).Checked)
+            {
+                if (!hackMem.OpenProcess("HD-Player"))
+                {
+                    S.Text = "❌ Emulator Not Found!";
+                    S.ForeColor = Color.Red;
+                    ((Guna.UI2.WinForms.Guna2CustomCheckBox)sender).Checked = false;
+                    return;
+                }
+
+                S.Text = "⏳ Scanning...";
+                S.ForeColor = Color.Yellow;
+
+                var result = await hackMem.ScanAndReplace(recoilSearch, recoilReplace);
+                recoilAddresses = result.addresses;
+
+                if (recoilAddresses.Count > 0)
+                {
+                    S.Text = "✅ No Recoil ON";
+                    S.ForeColor = Color.Lime;
+                    Console.Beep(1000, 300);
+                }
+                else
+                {
+                    S.Text = "❌ Pattern Not Found!";
+                    S.ForeColor = Color.Red;
+                    ((Guna.UI2.WinForms.Guna2CustomCheckBox)sender).Checked = false;
+                }
+            }
+            else
+            {
+                byte[] originalBytes = ParseHexToBytes(recoilSearch);
+                foreach (var addr in recoilAddresses)
+                    hackMem.WriteBytes(addr, originalBytes);
+
+                recoilAddresses.Clear();
+                S.Text = "🔴 No Recoil OFF";
+                S.ForeColor = Color.Gray;
+            }
+        }
+
         // ==================== UPDATE LABEL ====================
         private void UpdateLabel(string text, Color? color = null)
         {
@@ -928,6 +977,15 @@ namespace PhantomXiters
                 foreach (var addr in visionAddresses)
                     hackMem.WriteBytes(addr, originalBytes);
                 visionAddresses.Clear();
+            }
+
+            // Restore No Recoil
+            if (recoilAddresses.Count > 0)
+            {
+                byte[] originalBytes = ParseHexToBytes(recoilSearch);
+                foreach (var addr in recoilAddresses)
+                    hackMem.WriteBytes(addr, originalBytes);
+                recoilAddresses.Clear();
             }
 
             // Restore Aimbot if active
