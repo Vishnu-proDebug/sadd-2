@@ -1,4 +1,4 @@
-﻿// Form1.Designer.cs
+// Form1.Designer.cs
 using System;
 using System.ComponentModel;
 using System.Drawing;
@@ -59,6 +59,9 @@ namespace PhantomXiters
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.guna2CustomCheckBox5 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
+            this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.label20 = new System.Windows.Forms.Label();
+            this.guna2CustomCheckBox10 = new Guna.UI2.WinForms.Guna2CustomCheckBox();
             this.KeyPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.label18 = new System.Windows.Forms.Label();
             this.MouseBtn = new Guna.UI2.WinForms.Guna2Button();
@@ -108,6 +111,7 @@ namespace PhantomXiters
             this.guna2Panel7.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
+            this.guna2Panel11.SuspendLayout();
             this.KeyPanel.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             this.EspPanel.SuspendLayout();
@@ -315,6 +319,7 @@ namespace PhantomXiters
             this.AimBotMenu.Controls.Add(this.guna2Panel7);
             this.AimBotMenu.Controls.Add(this.guna2Panel3);
             this.AimBotMenu.Controls.Add(this.guna2Panel8);
+            this.AimBotMenu.Controls.Add(this.guna2Panel11);
             this.AimBotMenu.Controls.Add(this.KeyPanel);
             this.AimBotMenu.Controls.Add(this.guna2Panel4);
             this.AimBotMenu.Location = new System.Drawing.Point(126, 53);
@@ -582,6 +587,48 @@ namespace PhantomXiters
             this.guna2CustomCheckBox5.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
             this.guna2CustomCheckBox5.UseTransparentBackground = true;
             this.guna2CustomCheckBox5.Click += new System.EventHandler(this.guna2CustomCheckBox5_Click);
+            // 
+            // guna2Panel11
+            // 
+            this.guna2Panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.guna2Panel11.Controls.Add(this.label20);
+            this.guna2Panel11.Controls.Add(this.guna2CustomCheckBox10);
+            this.guna2Panel11.Location = new System.Drawing.Point(9, 228);
+            this.guna2Panel11.Name = "guna2Panel11";
+            this.guna2Panel11.Size = new System.Drawing.Size(233, 32);
+            this.guna2Panel11.TabIndex = 15;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Bahnschrift SemiCondensed", 9.75F);
+            this.label20.ForeColor = System.Drawing.Color.Silver;
+            this.label20.Location = new System.Drawing.Point(10, 7);
+            this.label20.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(69, 16);
+            this.label20.TabIndex = 12;
+            this.label20.Text = "NO RECOIL";
+            // 
+            // guna2CustomCheckBox10
+            // 
+            this.guna2CustomCheckBox10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CustomCheckBox10.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.guna2CustomCheckBox10.CheckedState.BorderRadius = 2;
+            this.guna2CustomCheckBox10.CheckedState.BorderThickness = 1;
+            this.guna2CustomCheckBox10.CheckedState.FillColor = System.Drawing.Color.Red;
+            this.guna2CustomCheckBox10.CheckMarkColor = System.Drawing.Color.Black;
+            this.guna2CustomCheckBox10.Location = new System.Drawing.Point(205, 6);
+            this.guna2CustomCheckBox10.Name = "guna2CustomCheckBox10";
+            this.guna2CustomCheckBox10.Size = new System.Drawing.Size(20, 20);
+            this.guna2CustomCheckBox10.TabIndex = 7;
+            this.guna2CustomCheckBox10.Text = "guna2CustomCheckBox10";
+            this.guna2CustomCheckBox10.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(47)))), ((int)(((byte)(47)))), ((int)(((byte)(47)))));
+            this.guna2CustomCheckBox10.UncheckedState.BorderRadius = 2;
+            this.guna2CustomCheckBox10.UncheckedState.BorderThickness = 1;
+            this.guna2CustomCheckBox10.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(33)))), ((int)(((byte)(33)))));
+            this.guna2CustomCheckBox10.UseTransparentBackground = true;
+            this.guna2CustomCheckBox10.Click += new System.EventHandler(this.guna2CustomCheckBox10_Click);
             // 
             // KeyPanel
             // 
@@ -1140,6 +1187,8 @@ namespace PhantomXiters
             this.guna2Panel3.PerformLayout();
             this.guna2Panel8.ResumeLayout(false);
             this.guna2Panel8.PerformLayout();
+            this.guna2Panel11.ResumeLayout(false);
+            this.guna2Panel11.PerformLayout();
             this.KeyPanel.ResumeLayout(false);
             this.KeyPanel.PerformLayout();
             this.guna2Panel4.ResumeLayout(false);
@@ -1213,6 +1262,9 @@ namespace PhantomXiters
         private Guna2Panel guna2Panel8;
         private Label label9;
         private Guna2CustomCheckBox guna2CustomCheckBox5;
+        private Guna2Panel guna2Panel11;
+        private Label label20;
+        private Guna2CustomCheckBox guna2CustomCheckBox10;
         private Guna2Panel guna2Panel3;
         private Label label8;
         private Guna2CustomCheckBox guna2CustomCheckBox4;
